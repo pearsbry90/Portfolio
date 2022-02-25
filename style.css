@@ -1,0 +1,117 @@
+header {
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2.0em;
+}
+
+img.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    height: 15em;
+    width: 15em;
+  }
+
+header h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 7.5em;
+    letter-spacing: -0.025em;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.navbar {
+    position: fixed; 
+    z-index: 1;
+}
+nav {
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0;
+}
+
+nav li a, nav li a:visited {
+    text-decoration: none;
+    padding: 0.3em 0.6em;
+}
+
+nav#utilityMenu {
+    float: center;
+    margin: -1.5em 0 0 0;
+    padding: .10em;
+    height: 1.3em;
+}
+nav#utilityMenu li {
+    padding: 0 0.2em 0 0.2em;
+    vertical-align: right;
+}
+
+nav#utilityMenu li a, nav#utilityMenu li a:visited { padding: 0;}
+nav#utilityMenu {
+    vertical-align: top-right;
+    margin: 0 0 0 1.0em;
+}
+
+body, html {
+    height: 100%;
+}
+
+/* HEADER */
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("./Pictures/Background.png");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* MY STORY */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.skills {
+  
+}
+
+
+.connect {
+    
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(31, 158, 197);
+    color: black;
+}
